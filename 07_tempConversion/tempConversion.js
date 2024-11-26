@@ -1,7 +1,9 @@
-const convertToCelsius = function() {
+const convertToFarenheit = function( n ) {
+    return ((n * 9.0 / 5.0) - 32)
 };
 
-const convertToFahrenheit = function() {
+const convertToCelcius = function( n ) {
+    return ((n * 9.0 / 5.0) + 32)
 };
 
 // Do not edit below this line
